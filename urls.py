@@ -27,4 +27,6 @@ urlpatterns = patterns('',
     (r'^(?P<subscription_id>\d+)/$', 'phillyleg.views.dashboard'),
     (r'^search/$', subscriptions.views.SearchView()),
 #    (r'^search/', include('haystack.urls')),
+
+    (r'^rhok/', include('rhok.urls'))
 )
