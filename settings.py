@@ -132,3 +132,6 @@ INSTALLED_APPS = (
 )
 
 #AUTH_PROFILE_MODULE = 'phillyleg.subscription'
+
+# RHOK-specific settings
+RHOK_STATIC_URL = 'rhok/static/'
