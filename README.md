@@ -45,6 +45,23 @@ Now, check that everything is working by browsing to http://localhost:8000/. Now
 browse to http://localhost:8000/admin and enter the admin username and password
 you supplied and you should have access to all of the legislative files!
 
+Compass
+-------
+
+Councilmatic utilizes [Compass](http://compass-style.org/) as its CSS authoring framework.
+
+To install Compass:
+    
+    $ gem install compass
+
+To compile CSS:
+
+    $ compass compile /path/to/councilmatic/static/sketch
+
+Interested in Contributing?
+---------------------------
+
+See [Pivotal Tracker](https://www.pivotaltracker.com/projects/258817) for a list of outstanding issues.
 
 Copyright
 ---------
