@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     
     'phillyleg',
     'subscriptions',
+    'rhok', # work done during Random Hacks of Kindness 6/2011
 )
 
 #AUTH_PROFILE_MODULE = 'phillyleg.subscription'
