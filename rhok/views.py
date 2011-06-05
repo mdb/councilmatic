@@ -9,7 +9,6 @@ from councilmatic.rhok import models
 
 def index(request):
     context = RequestContext(request)
-    context['RHOK_STATIC_URL'] = settings.RHOK_STATIC_URL
     #context['rhok'] = models.Rhok.objects.active()
     template = get_template('rhok/index.html')
     return HttpResponse(template.render(context))
