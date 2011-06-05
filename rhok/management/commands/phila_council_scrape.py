@@ -46,6 +46,7 @@ def scrape_council_page(c_url):
         council_return[ADDRESS] = address[ADDRESS]
         council_return[CITY] = address[CITY]
         council_return[ZIP] = address[ZIP]
+        council_return[PHONE1] = address[PHONE1]
     return council_return
 
 def parse_address(addr_string):
